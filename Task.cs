@@ -18,6 +18,7 @@ namespace Monte_Carlo
                 this.worst = numbers[0];
                 this.best = numbers[1];
             }
+
             else
             {
                 Console.WriteLine("Numbers are invalid (best > avg > worst)");
